@@ -1,0 +1,7 @@
+account_number,bank_code,reason
+1234567890,1,Account does not exist (simulated)
+1111abcd90,3,Invalid format (must be 10+ digits)
+2222222220,1,Account does not exist (simulated)
+4444,2,Invalid format (must be 10+ digits)
+5555555550,3,Account does not exist (simulated)
+abcdefg123,2,Invalid format (must be 10+ digits)

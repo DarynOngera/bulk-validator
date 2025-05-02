@@ -1,0 +1,11 @@
+fastapi
+ijson
+openpyxl
+pdfkit
+reportlab
+yagmail
+uvicorn
+httpx
+pandas 
+python-multipart 
+pytest
