@@ -3,7 +3,7 @@ import random
 import string
 
 # Configuration
-total_records = 500
+total_records = 10000
 valid_ratio = 0.6  # 60% valid, 40% invalid
 output_csv = "seed_accounts.csv"
 
@@ -19,7 +19,7 @@ def random_digits(n):
 
 def luhn_checksum(num_str):
     digits = [int(d) for d in num_str]
-    sum_ = sum(digits[-1::-2]) + sum(sum(divmod(d*2,10)) for d in digits[-2::-2])
+    sum_ = sum(digits[-1::-2]) + sum(sum(divmod(d * 2, 10)) for d in digits[-2::-2])
     return sum_ % 10
 
 def random_alphanum_strict(n):
@@ -47,9 +47,6 @@ def generate_account_number():
     else:
         return random_alphanum_strict(length)
 
-def random_letters(n):
-    return ''.join(random.choices(string.ascii_uppercase, k=n))
-
 def random_alphanum(n):
     return ''.join(random.choices(string.ascii_uppercase + string.digits, k=n))
 
@@ -75,25 +72,6 @@ def generate_valid_iban():
     check = iban_checksum(temp_iban)
     return country + check + bban
 
-def generate_invalid_iban():
-    country = random.choice(list(IBAN_COUNTRIES.keys()))
-    length = IBAN_COUNTRIES[country]
-    bban_length = length - 4
-    bban = random_alphanum(bban_length)
-    # Purposely wrong checksum or length
-    if random.random() < 0.5:
-        # Wrong checksum
-        check = f"{random.randint(0, 97):02d}"
-        while check == iban_checksum(country + "00" + bban):
-            check = f"{random.randint(0, 97):02d}"
-        return country + check + bban
-    else:
-        # Wrong length
-        wrong_length = length + random.choice([-3, -2, -1, 1, 2, 3])
-        bban = random_alphanum(max(1, wrong_length - 4))
-        check = iban_checksum(country + "00" + bban)
-        return country + check + bban
-
 def make_valid_account(idx, used_refs):
     # 20% chance to generate valid IBAN
     if random.random() < 0.2:
@@ -102,11 +80,15 @@ def make_valid_account(idx, used_refs):
     else:
         acct = generate_account_number()
         bank = random.choice(["001", "002", "003", "044", "058", "070", "232"])
+    # Simulate special accounts for mock bank API
+    if random.random() < 0.3:  # 30% chance of special accounts
+        acct = "X" + acct  # For regulatory checks
+        acct += "000"  # For blocked accounts
     amt = round(random.uniform(50, 500000), 2)
-    ref = f"TX{random.randint(100000,999999)}"
+    ref = f"TX{random.randint(100000, 999999)}"
     # Ensure unique reference_id
     while ref in used_refs:
-        ref = f"TX{random.randint(100000,999999)}"
+        ref = f"TX{random.randint(100000, 999999)}"
     used_refs.add(ref)
     return {
         "account_number": acct,
@@ -119,10 +101,7 @@ def make_invalid_account(idx, used_refs):
     error_type = random.choice([
         "short_account", "long_account", "symbols", "bad_bank", "bad_amount", "empty_ref", "dup_ref", "invalid_iban"])
     # Account number
-    if error_type == "invalid_iban":
-        acct = generate_invalid_iban()
-        bank = ""
-    elif error_type == "short_account":
+    if error_type == "short_account":
         acct = random_alphanum_strict(random.randint(5, 7))
         bank = random.choice(["001", "002", "003", "044", "058", "070", "232"])
     elif error_type == "long_account":
@@ -145,7 +124,7 @@ def make_invalid_account(idx, used_refs):
     elif error_type == "dup_ref" and used_refs:
         ref = random.choice(list(used_refs))
     else:
-        ref = f"BAD{random.randint(100000,999999)}"
+        ref = f"BAD{random.randint(100000, 999999)}"
         used_refs.add(ref)
     return {
         "account_number": acct,
