@@ -1,7 +1,19 @@
 # app/validators/account_validator.py
 
 import re
-from typing import Dict
+import random
+from typing import Dict, List
+
+# SEPA error codes
+SEPA_ERROR_CODES = {
+    "AC01": "Incorrect account number/IBAN format",
+    "AC04": "Closed account number",
+    "AC06": "Blocked account",
+    "AM09": "Invalid amount",
+    "BE04": "Invalid bank code",
+    "RR01": "Regulatory restriction",
+    "RF01": "Invalid reference ID"
+}
 
 class AccountValidator:
     def __init__(self):
@@ -11,37 +23,44 @@ class AccountValidator:
             {
                 "name": "iban_format_or_checksum",
                 "rule": lambda x: self._looks_like_iban(x) and not self._validate_iban(x),
-                "message": "Invalid IBAN format or checksum"
+                "message": SEPA_ERROR_CODES["AC01"],
+                "code": "AC01"
             },
             {
                 "name": "length_error",
                 "rule": lambda x: not self._looks_like_iban(x) and not (8 <= len(x) <= 12),
-                "message": "Account number must be 8-12 characters (unless IBAN)"
+                "message": SEPA_ERROR_CODES["AC01"],
+                "code": "AC01"
             },
             {
                 "name": "alphanumeric_format",
                 "rule": lambda x: not self._looks_like_iban(x) and not x.isalnum(),
-                "message": "Account number must be alphanumeric (unless IBAN)"
+                "message": SEPA_ERROR_CODES["AC01"],
+                "code": "AC01"
             },
             {
                 "name": "bank_code_validation",
                 "rule": lambda x, bank_code: not self._looks_like_iban(x) and bank_code not in self.valid_bank_codes,
-                "message": "Invalid bank code"
+                "message": SEPA_ERROR_CODES["BE04"],
+                "code": "BE04"
             },
             {
                 "name": "luhn_checksum",
                 "rule": lambda x: not self._looks_like_iban(x) and (x.isdigit() and len(x) == 10 and not self._validate_checksum(x)),
-                "message": "Invalid account number checksum (for 10-digit numeric only)"
+                "message": SEPA_ERROR_CODES["AC01"],
+                "code": "AC01"
             },
             {
                 "name": "amount_validation",
                 "rule": lambda x, amount: not self._validate_amount(amount),
-                "message": "Invalid amount"
+                "message": SEPA_ERROR_CODES["AM09"],
+                "code": "AM09"
             },
             {
                 "name": "reference_id_validation",
                 "rule": lambda x, amount, reference_id: not reference_id,
-                "message": "Reference ID must be non-empty"
+                "message": SEPA_ERROR_CODES["RF01"],
+                "code": "RF01"
             }
         ]
 
@@ -94,6 +113,19 @@ class AccountValidator:
         """Validate transaction amount"""
         return amount > 0 and amount <= 10000000  # Max 10M limit
 
+    async def mock_bank_api_check(self, account: str, bank_code: str) -> Dict:
+        """Simulates real bank API checks with probabilistic errors"""
+        # 5% chance of closed account
+        if random.random() < 0.05:  
+            return {"valid": False, "code": "AC04", "message": SEPA_ERROR_CODES["AC04"]}
+        # 2% chance regulatory block
+        elif account.startswith("X") and random.random() < 0.02:
+            return {"valid": False, "code": "RR01", "message": SEPA_ERROR_CODES["RR01"]}
+        # 3% chance blocked account
+        elif account.endswith("000") and random.random() < 0.03:
+            return {"valid": False, "code": "AC06", "message": SEPA_ERROR_CODES["AC06"]}
+        return {"valid": True}
+
     async def validate(self, account_data: Dict) -> Dict:
         """
         Validate account details
@@ -133,26 +165,40 @@ class AccountValidator:
                 if rule["rule"](account, bank_code):
                     validation_errors.append({
                         "type": rule["name"],
+                        "code": rule["code"],
                         "message": rule["message"]
                     })
             elif rule["name"] == "amount_validation":
                 if rule["rule"](account, amount):
                     validation_errors.append({
                         "type": rule["name"],
+                        "code": rule["code"],
                         "message": rule["message"]
                     })
             elif rule["name"] == "reference_id_validation":
                 if rule["rule"](account, amount, reference_id):
                     validation_errors.append({
                         "type": rule["name"],
+                        "code": rule["code"],
                         "message": rule["message"]
                     })
             else:
                 if rule["rule"](account):
                     validation_errors.append({
                         "type": rule["name"],
+                        "code": rule["code"],
                         "message": rule["message"]
                     })
+
+        # Simulate bank API checks for existing accounts
+        if not validation_errors:  # Only check if format is valid
+            bank_api_result = await self.mock_bank_api_check(account, bank_code)
+            if not bank_api_result["valid"]:
+                validation_errors.append({
+                    "type": "bank_api_error",
+                    "code": bank_api_result["code"],
+                    "message": bank_api_result["message"]
+                })
 
         return {
             "status": "Invalid" if validation_errors else "Valid",
