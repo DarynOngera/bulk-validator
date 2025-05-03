@@ -10,3 +10,7 @@ pandas
 python-multipart 
 pytest
 python-dotenv
+<<<<<<< HEAD
+=======
+cryptography
+>>>>>>> 712d468fcd2dfc328a93acfc9751f42a6b479770

@@ -16,6 +16,25 @@ A robust, extensible system for validating bulk payment account data from CSV, J
 
 ---
 
+## New Features in v2.0
+
+### Banking Standard Compliance
+- **SEPA/ISO 20022 Error Codes**:
+  - **AC01**: Invalid account format
+  - **AC04**: Closed account
+  - **AM09**: Invalid amount
+  - **BE04**: Invalid bank code
+
+### Advanced Validation
+- **Realistic Bank API Simulation**:
+  - Simulates 5% closed accounts and 3% blocked accounts.
+  - Run the seeder with advanced simulation:
+    ```bash
+    python seed_accounts.py --advanced
+    ```
+
+---
+
 ## Quick Start
 
 ### 1. Install Dependencies
@@ -66,9 +85,16 @@ uvicorn app.main:app --reload
 
 ### 6. Batch/Streaming Validation (Large Files)
 ```bash
-python batch_ingest.py path/to/your.csv --type csv
-python batch_ingest.py path/to/your.json --type json
-python batch_ingest.py path/to/your.xml --type xml
+python [batch_ingest.py](http://_vscodecontentref_/1) path/to/your.csv --type csv
+python [batch_ingest.py](http://_vscodecontentref_/2) path/to/your.json --type json
+python [batch_ingest.py](http://_vscodecontentref_/3) path/to/your.xml --type xml
+```
+
+### Parallel Processing
+```bash
+python [batch_ingest.py](http://_vscodecontentref_/5) path/to/your.csv --type csv --workers 4
+python [batch_ingest.py](http://_vscodecontentref_/5) path/to/your.json --type json --workers 4
+python [batch_ingest.py](http://_vscodecontentref_/5) path/to/your.xml --type xml --workers 4
 ```
 - Use `--notify` to send email notification on completion.
 
@@ -141,6 +167,27 @@ bulk-validator/
 - For Gmail, use an App Password for `EMAIL_PASS` if 2FA is enabled.
 - If you see `TOKEN_MAP_KEY environment variable must be set for encryption/decryption.`, check your `.env` or export the key.
 - Check the `output/` directory for all results and logs.
+
+---
+
+## Validation Flow Diagram
+
+```mermaid
+graph TD
+  A[CSV/JSON/XML Input] --> B{Validation System}
+  B --> C[Format Check]
+  B --> D[Bank Code Validation]
+  B --> E[IBAN Checksum]
+  C -->|AC01| F[Error Report]
+  D -->|BE04| F
+  E -->|AC01| F
+  B --> G[Mock Bank API]
+  G -->|AC04/RR01| F
+  B --> H[Parallel Processing]
+  H --> I[Valid Transactions]
+  H --> F
+  I --> J[PesaLink Integration]
+```
 
 ---
 
