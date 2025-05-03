@@ -1,23 +1,26 @@
-import os
-import json
-from cryptography.fernet import Fernet
 import argparse
+import json
+import os
+import sys
+import getpass
 from dotenv import load_dotenv
-
+from cryptography.fernet import Fernet
 
 def main():
     # Load .env if present
     load_dotenv()
     parser = argparse.ArgumentParser(description="View decrypted tokens from token_map.json.")
     parser.add_argument("--file", default="output/token_map.json", help="Path to token_map.json")
-    parser.add_argument("--key", default=None, help="Fernet key (if not set, will read TOKEN_MAP_KEY from env)")
+    parser.add_argument("--key", default=None, help="Fernet key (if not set, will prompt interactively)")
     parser.add_argument("--batch", type=int, default=None, help="Batch index to view (default: all batches)")
     args = parser.parse_args()
 
-    key = args.key or os.getenv("TOKEN_MAP_KEY")
+    key = args.key
     if not key:
-        print("ERROR: Fernet key must be supplied via --key or TOKEN_MAP_KEY env var.")
-        exit(1)
+        key = getpass.getpass("Enter Fernet decryption key: ")
+    if not key:
+        print("ERROR: Fernet key must be supplied via --key or entered interactively.")
+        sys.exit(1)
 
     with open(args.file, "r") as f:
         all_batches = json.load(f)

@@ -1,5 +1,7 @@
 import yagmail
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 def send_validation_report_email(recipient, subject, body, attachments=None):
     """

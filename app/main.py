@@ -56,6 +56,11 @@ async def root():
         }
     }
 
+# === Health Check Endpoint ===
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
+
 # === Helper: Common validation and output logic ===
 REQUIRED_COLUMNS = ['account_number', 'bank_code', 'amount', 'reference_id']
 
@@ -264,39 +269,33 @@ async def download_file(filename: str):
     return JSONResponse({"detail": "File not found."}, status_code=404)
 
 # === Secure Admin Token Lookup Endpoint ===
-from fastapi import Query, Header
+from fastapi import Query, Header, Depends
 from fastapi.responses import JSONResponse
-from starlette.status import HTTP_401_UNAUTHORIZED
+from app.security import require_role
 
 @app.post("/lookup-token")
-async def lookup_token(token: str = Query(...), admin_api_key: str = Header(None)):
+async def lookup_token(token: str = Query(...), role: str = Depends(require_role("admin", "auditor"))):
     import os
     import json
     from dotenv import load_dotenv
     load_dotenv()
-    # Check admin API key
-    expected_key = os.getenv('ADMIN_API_KEY')
-    if not expected_key or admin_api_key != expected_key:
-        return JSONResponse({"detail": "Unauthorized"}, status_code=HTTP_401_UNAUTHORIZED)
     # Load token map (only 'tokens' field is encrypted)
     token_map_path = 'output/token_map.json'
     if not os.path.exists(token_map_path):
-        return JSONResponse({"detail": "Token map file not found."}, status_code=404)
+        return JSONResponse({"detail": "Token map not found."}, status_code=404)
+    with open(token_map_path, 'r') as f:
+        token_map = json.load(f)
     from cryptography.fernet import Fernet
     key = os.getenv('TOKEN_MAP_KEY')
     if not key:
-        return JSONResponse({"detail": "TOKEN_MAP_KEY environment variable must be set for decryption."}, status_code=500)
-    with open(token_map_path, 'r') as f:
+        return JSONResponse({"detail": "TOKEN_MAP_KEY environment variable must be set for encryption/decryption."}, status_code=500)
+    fernet = Fernet(key)
+    for batch in token_map.get('batches', []):
+        encrypted_tokens = batch.get('tokens')
+        if not encrypted_tokens:
+            continue
         try:
-            all_batches = json.load(f)
-        except Exception:
-            return JSONResponse({"detail": "Token map file is corrupted or unreadable."}, status_code=500)
-    fernet = Fernet(key.encode())
-    # Search batches in reverse (latest first)
-    for batch in reversed(all_batches):
-        try:
-            tokens_blob = batch['tokens']
-            tokens_dict = json.loads(fernet.decrypt(tokens_blob.encode()).decode())
+            tokens_dict = json.loads(fernet.decrypt(encrypted_tokens.encode()).decode())
         except Exception:
             continue
         if token.startswith('ACC-') and token in tokens_dict.get('account_tokens', {}):
