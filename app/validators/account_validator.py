@@ -2,6 +2,7 @@
 
 import re
 from typing import Dict
+from app.bank_strategies import BANK_VALIDATORS
 
 class AccountValidator:
     def __init__(self):
@@ -124,6 +125,23 @@ class AccountValidator:
                     }
                 ]
             }
+
+        # --- Per-bank custom validation ---
+        if bank_code in BANK_VALIDATORS:
+            is_valid = BANK_VALIDATORS[bank_code](account)
+            if not is_valid:
+                return {
+                    "status": "Invalid",
+                    "errors": [{
+                        "type": f"bank_{bank_code}_account_validation",
+                        "message": f"Account number failed validation for bank {bank_code}"
+                    }],
+                    "account_number": account,
+                    "bank_code": bank_code,
+                    "amount": amount,
+                    "reference_id": reference_id
+                }
+            # If valid, continue to other rules (amount, reference)
 
         # Detailed validation
         validation_errors = []

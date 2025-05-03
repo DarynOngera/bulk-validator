@@ -1,0 +1,3832 @@
+[
+  {
+    "account_token":"ACC-f369107c",
+    "bank_code":"058",
+    "amount":"8634.31",
+    "reference_token":"REF-2892dfc6",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6e77cf78",
+    "bank_code":"070",
+    "amount":"27180.46",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4c5cb011",
+    "bank_code":"002",
+    "amount":"284387.46",
+    "reference_token":"REF-8021f99f",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bf480dd0",
+    "bank_code":null,
+    "amount":"3256.12",
+    "reference_token":"REF-78a6d498",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-57d417d5",
+    "bank_code":null,
+    "amount":"53427.15",
+    "reference_token":"REF-3611fd4c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7219f28a",
+    "bank_code":"003",
+    "amount":"43481.8",
+    "reference_token":"REF-33a8319b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-71440b73",
+    "bank_code":"232",
+    "amount":"94428.15",
+    "reference_token":"REF-8b821495",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0d342e09",
+    "bank_code":"058",
+    "amount":"428601.12",
+    "reference_token":"REF-6ddf2afe",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-caf4f756",
+    "bank_code":null,
+    "amount":"470956.49",
+    "reference_token":"REF-9ba04a94",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8f11d0fd",
+    "bank_code":"082",
+    "amount":"45381.45",
+    "reference_token":"REF-a48c03ad",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-81fe74d2",
+    "bank_code":"044",
+    "amount":"435103.42",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3a889957",
+    "bank_code":null,
+    "amount":"434456.07",
+    "reference_token":"REF-424b7b82",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-34663951",
+    "bank_code":"002",
+    "amount":"10671.44",
+    "reference_token":"REF-cc9ef7cd",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8b41d0ce",
+    "bank_code":null,
+    "amount":"20165.68",
+    "reference_token":"REF-b3723138",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bcd70db6",
+    "bank_code":"214",
+    "amount":"65335.71",
+    "reference_token":"REF-800103f0",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4170531f",
+    "bank_code":"070",
+    "amount":"144264.85",
+    "reference_token":"REF-2a272192",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b0d02794",
+    "bank_code":"215",
+    "amount":"179992.64",
+    "reference_token":"REF-bfecdd3b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3539c004",
+    "bank_code":"044",
+    "amount":"177329.27",
+    "reference_token":"REF-5db84d1e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7f7d166a",
+    "bank_code":"058",
+    "amount":"74676.82",
+    "reference_token":"REF-8a3ba269",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5c0de748",
+    "bank_code":"070",
+    "amount":"241976.39",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-da4646ca",
+    "bank_code":"070",
+    "amount":"461062.75",
+    "reference_token":"REF-6e9c07ec",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3f249c95",
+    "bank_code":"215",
+    "amount":"414711.9",
+    "reference_token":"REF-bebde53e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9e3339b7",
+    "bank_code":"044",
+    "amount":"29114.84",
+    "reference_token":"REF-d3232408",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-939b747b",
+    "bank_code":"058",
+    "amount":"33531.83",
+    "reference_token":"REF-e4ecd2d8",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c63ae731",
+    "bank_code":"058",
+    "amount":"115959.22",
+    "reference_token":"REF-3ca23784",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-baad8045",
+    "bank_code":"044",
+    "amount":"66469.9",
+    "reference_token":"REF-4ff759ab",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ccdc6c0f",
+    "bank_code":null,
+    "amount":"370206.78",
+    "reference_token":"REF-1e3a0515",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5d4bbedd",
+    "bank_code":"070",
+    "amount":"220573.66",
+    "reference_token":"REF-d7f01527",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3a59f232",
+    "bank_code":null,
+    "amount":"25338.79",
+    "reference_token":"REF-7e85bf0b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d20061dd",
+    "bank_code":null,
+    "amount":"240321.26",
+    "reference_token":"REF-0cca9142",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-91a954bc",
+    "bank_code":"214",
+    "amount":"249223.19",
+    "reference_token":"REF-bb9a2aa8",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3378a0b9",
+    "bank_code":"058",
+    "amount":"211340.25",
+    "reference_token":"REF-43d6856c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c4720554",
+    "bank_code":null,
+    "amount":"207070.61",
+    "reference_token":"REF-ecb6d75b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5ebced71",
+    "bank_code":null,
+    "amount":"103956.73",
+    "reference_token":"REF-1cc5107f",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0124eefe",
+    "bank_code":"003",
+    "amount":"443343.56",
+    "reference_token":"REF-6244019d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-a52d4ee4",
+    "bank_code":"214",
+    "amount":"35295.3",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bade4915",
+    "bank_code":"215",
+    "amount":"104447.01",
+    "reference_token":"REF-5198d5fb",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f15fad94",
+    "bank_code":"002",
+    "amount":"204728.98",
+    "reference_token":"REF-21113770",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-41c836ea",
+    "bank_code":"003",
+    "amount":"207798.84",
+    "reference_token":"REF-57f2e99b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9b9733e2",
+    "bank_code":"003",
+    "amount":"449686.25",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-89ba2544",
+    "bank_code":"232",
+    "amount":"422990.57",
+    "reference_token":"REF-b74ac9c4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-84421657",
+    "bank_code":"070",
+    "amount":"446005.6",
+    "reference_token":"REF-33dc3138",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-cbba8c95",
+    "bank_code":"002",
+    "amount":"226602.9",
+    "reference_token":"REF-5102eab7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-451875af",
+    "bank_code":"044",
+    "amount":"489428.1",
+    "reference_token":"REF-b17aab34",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f6fcb6ca",
+    "bank_code":"003",
+    "amount":"201312.91",
+    "reference_token":"REF-597308b7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-cc8e9562",
+    "bank_code":"070",
+    "amount":"103044.43",
+    "reference_token":"REF-64369101",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-77735203",
+    "bank_code":"044",
+    "amount":"456854.62",
+    "reference_token":"REF-370659ae",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1379ef8a",
+    "bank_code":"232",
+    "amount":"134340.3",
+    "reference_token":"REF-ebb70e6b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bb8846b0",
+    "bank_code":null,
+    "amount":"401931.95",
+    "reference_token":"REF-bbfd7615",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6ebc4e9f",
+    "bank_code":"002",
+    "amount":"261489.42",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5eb1e551",
+    "bank_code":"003",
+    "amount":"239339.43",
+    "reference_token":"REF-3385a43b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b237adf8",
+    "bank_code":"003",
+    "amount":"253531.11",
+    "reference_token":"REF-4550d114",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d6d47b69",
+    "bank_code":"058",
+    "amount":"234929.23",
+    "reference_token":"REF-f7b73112",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-38b3cf59",
+    "bank_code":"058",
+    "amount":"466655.6",
+    "reference_token":"REF-e86cb778",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6ced3bda",
+    "bank_code":"070",
+    "amount":"165647.6",
+    "reference_token":"REF-18aa961c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-eb4d0248",
+    "bank_code":"082",
+    "amount":"457763.76",
+    "reference_token":"REF-1deb02cc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9b1719fd",
+    "bank_code":"082",
+    "amount":"113511.81",
+    "reference_token":"REF-dddb5135",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7be3b338",
+    "bank_code":"214",
+    "amount":"193229.22",
+    "reference_token":"REF-49c73c2e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e3d998b0",
+    "bank_code":"214",
+    "amount":"293535.84",
+    "reference_token":"REF-63a36fa6",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b46287ef",
+    "bank_code":"003",
+    "amount":"14631.4",
+    "reference_token":"REF-e2106213",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0b8d9987",
+    "bank_code":"070",
+    "amount":"122074.32",
+    "reference_token":"REF-b54a325a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6534732a",
+    "bank_code":"003",
+    "amount":"282616.19",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b42a64d7",
+    "bank_code":"044",
+    "amount":"415054.13",
+    "reference_token":"REF-3dcb4768",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-608b9511",
+    "bank_code":"215",
+    "amount":"461631.81",
+    "reference_token":"REF-8e2507b4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-254bb6ac",
+    "bank_code":"002",
+    "amount":"82119.23",
+    "reference_token":"REF-01e0e9e0",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bff820e3",
+    "bank_code":"232",
+    "amount":"82813.7",
+    "reference_token":"REF-49eff352",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-194502d6",
+    "bank_code":"232",
+    "amount":"92079.47",
+    "reference_token":"REF-0f36c219",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-59fc31b8",
+    "bank_code":"044",
+    "amount":"85329.02",
+    "reference_token":"REF-ae2afc99",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-540cbca8",
+    "bank_code":"058",
+    "amount":"345510.66",
+    "reference_token":"REF-263c3f54",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-86310f8d",
+    "bank_code":"214",
+    "amount":"156537.21",
+    "reference_token":"REF-b481717b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d64ba6d5",
+    "bank_code":"215",
+    "amount":"87154.48",
+    "reference_token":"REF-a5620050",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-12d9687b",
+    "bank_code":null,
+    "amount":"453089.93",
+    "reference_token":"REF-ba873264",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-59fe98c2",
+    "bank_code":"215",
+    "amount":"285466.16",
+    "reference_token":"REF-44873127",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6e70fb64",
+    "bank_code":"070",
+    "amount":"12316.01",
+    "reference_token":"REF-d8e9522c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7d11cdb5",
+    "bank_code":"082",
+    "amount":"148821.86",
+    "reference_token":"REF-664e79bb",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ba5d9276",
+    "bank_code":null,
+    "amount":"187581.49",
+    "reference_token":"REF-0e8dcd8c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-685e5985",
+    "bank_code":"070",
+    "amount":"341473.78",
+    "reference_token":"REF-a1145af4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3b7b9c8a",
+    "bank_code":"070",
+    "amount":"282820.28",
+    "reference_token":"REF-2e2dcd5e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-96864aa9",
+    "bank_code":"082",
+    "amount":"232068.22",
+    "reference_token":"REF-56f3dfc2",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ddbc7e7c",
+    "bank_code":"214",
+    "amount":"260953.28",
+    "reference_token":"REF-66ddab85",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-647171d4",
+    "bank_code":"044",
+    "amount":"141520.26",
+    "reference_token":"REF-a9fb5287",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-36097700",
+    "bank_code":"070",
+    "amount":"462946.77",
+    "reference_token":"REF-f044a3df",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-962f1972",
+    "bank_code":"058",
+    "amount":"268373.55",
+    "reference_token":"REF-b98ba8ad",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d32b187e",
+    "bank_code":null,
+    "amount":"313796.21",
+    "reference_token":"REF-29b86a85",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-abe512bb",
+    "bank_code":"082",
+    "amount":"217405.86",
+    "reference_token":"REF-be8d95d3",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5a7f5da3",
+    "bank_code":"044",
+    "amount":"145540.23",
+    "reference_token":"REF-baf943fb",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-082624a4",
+    "bank_code":"232",
+    "amount":"183166.98",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e7559dd3",
+    "bank_code":"232",
+    "amount":"356226.96",
+    "reference_token":"REF-3a481208",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bcd9e8de",
+    "bank_code":null,
+    "amount":"289158.89",
+    "reference_token":"REF-1713b63b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8b3f4d05",
+    "bank_code":"215",
+    "amount":"183702.07",
+    "reference_token":"REF-4875fd8f",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-17a1157a",
+    "bank_code":"058",
+    "amount":"298388.22",
+    "reference_token":"REF-6b97c6af",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5c9c58ef",
+    "bank_code":null,
+    "amount":"394964.83",
+    "reference_token":"REF-e6cc85c5",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e70a8cc0",
+    "bank_code":"003",
+    "amount":"26463.99",
+    "reference_token":"REF-daeea18a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0800606a",
+    "bank_code":"215",
+    "amount":"54134.03",
+    "reference_token":"REF-593a01a1",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1255d4c2",
+    "bank_code":"232",
+    "amount":"137217.41",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-82a5a3c0",
+    "bank_code":"058",
+    "amount":"11068.58",
+    "reference_token":"REF-db4d4b91",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-72cdaa70",
+    "bank_code":"070",
+    "amount":"366338.57",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-01192280",
+    "bank_code":"082",
+    "amount":"395517.71",
+    "reference_token":"REF-e41d8fcc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-30670bea",
+    "bank_code":null,
+    "amount":"282048.44",
+    "reference_token":"REF-b481717b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c9cd87d3",
+    "bank_code":"082",
+    "amount":"74786.43",
+    "reference_token":"REF-b22a25d9",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-62acc901",
+    "bank_code":"003",
+    "amount":"201293.16",
+    "reference_token":"REF-1c13ac8a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-652c083d",
+    "bank_code":"082",
+    "amount":"257215.43",
+    "reference_token":"REF-c2a8e213",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-04358b42",
+    "bank_code":null,
+    "amount":"104338.3",
+    "reference_token":"REF-bcbc0fd8",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6837e051",
+    "bank_code":null,
+    "amount":"22158.45",
+    "reference_token":"REF-8c5958b8",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-fd92234a",
+    "bank_code":"214",
+    "amount":"397396.31",
+    "reference_token":"REF-2b18a873",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ff79739e",
+    "bank_code":"215",
+    "amount":"197191.07",
+    "reference_token":"REF-58007c26",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-896cc20d",
+    "bank_code":"003",
+    "amount":"203415.01",
+    "reference_token":"REF-f0985bed",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-80c40fea",
+    "bank_code":null,
+    "amount":"30760.87",
+    "reference_token":"REF-bf06d834",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ecc83145",
+    "bank_code":"232",
+    "amount":"333235.41",
+    "reference_token":"REF-8a004615",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b4296771",
+    "bank_code":null,
+    "amount":"284901.98",
+    "reference_token":"REF-300ff5d8",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b8ec3d75",
+    "bank_code":null,
+    "amount":"200910.61",
+    "reference_token":"REF-3e00aaca",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0e4cf40d",
+    "bank_code":"070",
+    "amount":"75960.58",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b77b46a6",
+    "bank_code":"214",
+    "amount":"144717.51",
+    "reference_token":"REF-17fd9bf4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-798aadac",
+    "bank_code":"232",
+    "amount":"417268.53",
+    "reference_token":"REF-1de6faf5",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-90256de3",
+    "bank_code":"003",
+    "amount":"118540.81",
+    "reference_token":"REF-15aff973",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-755a39ec",
+    "bank_code":"003",
+    "amount":"383391.95",
+    "reference_token":"REF-c1934315",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5a1a4254",
+    "bank_code":"044",
+    "amount":"366658.64",
+    "reference_token":"REF-65d20f7f",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0912dc00",
+    "bank_code":"058",
+    "amount":"225575.62",
+    "reference_token":"REF-b01ef73e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8d0d58b0",
+    "bank_code":null,
+    "amount":"181057.63",
+    "reference_token":"REF-6eada25e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ed251177",
+    "bank_code":"070",
+    "amount":"480280.97",
+    "reference_token":"REF-ddb95bc2",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-2daf8c05",
+    "bank_code":null,
+    "amount":"70662.95",
+    "reference_token":"REF-22020eb0",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-80101d37",
+    "bank_code":"044",
+    "amount":"390405.35",
+    "reference_token":"REF-b9d4ec59",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ee47f6c9",
+    "bank_code":"214",
+    "amount":"441745.37",
+    "reference_token":"REF-232694fd",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-910f47d7",
+    "bank_code":null,
+    "amount":"293585.37",
+    "reference_token":"REF-92e09d9e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-08e8670e",
+    "bank_code":"082",
+    "amount":"287958.83",
+    "reference_token":"REF-b1fb1d03",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-83478c95",
+    "bank_code":"214",
+    "amount":"229783.1",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-87cf7cd7",
+    "bank_code":"214",
+    "amount":"76735.08",
+    "reference_token":"REF-3dbeacc3",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3aa73da0",
+    "bank_code":null,
+    "amount":"154152.13",
+    "reference_token":"REF-1c30a7e2",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5d630480",
+    "bank_code":"082",
+    "amount":"273001.23",
+    "reference_token":"REF-5e3bfc5b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b7eefc1d",
+    "bank_code":null,
+    "amount":"122103.99",
+    "reference_token":"REF-e9f03b50",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-18da825b",
+    "bank_code":"003",
+    "amount":"60379.11",
+    "reference_token":"REF-0482f1b6",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-11463aa7",
+    "bank_code":null,
+    "amount":"178201.91",
+    "reference_token":"REF-74042546",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-810d0c33",
+    "bank_code":null,
+    "amount":"296504.42",
+    "reference_token":"REF-269a833a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1fe3f83b",
+    "bank_code":"215",
+    "amount":"84497.75",
+    "reference_token":"REF-0ea8a36e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8a702485",
+    "bank_code":"070",
+    "amount":"340140.3",
+    "reference_token":"REF-5d1ae449",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-223ace3e",
+    "bank_code":"232",
+    "amount":"104814.42",
+    "reference_token":"REF-55935913",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-22b95d01",
+    "bank_code":"214",
+    "amount":"208185.93",
+    "reference_token":"REF-a6610b18",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ac7a5565",
+    "bank_code":"058",
+    "amount":"259644.35",
+    "reference_token":"REF-84489880",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-70b31ed1",
+    "bank_code":"003",
+    "amount":"17665.27",
+    "reference_token":"REF-c7562e14",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e34b9656",
+    "bank_code":null,
+    "amount":"230077.32",
+    "reference_token":"REF-1a8a0b1f",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-159bd0b6",
+    "bank_code":"044",
+    "amount":"135466.99",
+    "reference_token":"REF-e4fd364c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-616f0be6",
+    "bank_code":"003",
+    "amount":"329971.86",
+    "reference_token":"REF-b74ac9c4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-19d7c899",
+    "bank_code":"214",
+    "amount":"342278.15",
+    "reference_token":"REF-8f91962d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4bf6ca07",
+    "bank_code":"070",
+    "amount":"444822.43",
+    "reference_token":"REF-040b5f9b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-21bfcc43",
+    "bank_code":"002",
+    "amount":"157540.17",
+    "reference_token":"REF-040b5f9b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bac90c10",
+    "bank_code":"002",
+    "amount":"212569.0",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0d33139c",
+    "bank_code":"232",
+    "amount":"322053.05",
+    "reference_token":"REF-b4f9c411",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f5ceac4a",
+    "bank_code":"058",
+    "amount":"424475.64",
+    "reference_token":"REF-7cc99359",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bc7804e6",
+    "bank_code":"003",
+    "amount":"281307.13",
+    "reference_token":"REF-c6272d2d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ffe02e90",
+    "bank_code":"002",
+    "amount":"285920.29",
+    "reference_token":"REF-9af5e633",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6c7a80b1",
+    "bank_code":null,
+    "amount":"68379.95",
+    "reference_token":"REF-690cedcc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-09fdfddf",
+    "bank_code":"070",
+    "amount":"343723.99",
+    "reference_token":"REF-52b117ee",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6136acb0",
+    "bank_code":"070",
+    "amount":"289780.85",
+    "reference_token":"REF-0dbf29b2",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c13026bf",
+    "bank_code":"003",
+    "amount":"330105.64",
+    "reference_token":"REF-bc129c35",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-29016971",
+    "bank_code":"214",
+    "amount":"78885.37",
+    "reference_token":"REF-d0f29fdd",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f9d7bd83",
+    "bank_code":"058",
+    "amount":"357210.08",
+    "reference_token":"REF-ffe92a4a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-a57ce3fb",
+    "bank_code":"044",
+    "amount":"273365.25",
+    "reference_token":"REF-b2dd5e4e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-2f52a4c5",
+    "bank_code":"215",
+    "amount":"169429.64",
+    "reference_token":"REF-0df7cb2e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b05918d0",
+    "bank_code":"232",
+    "amount":"2154.33",
+    "reference_token":"REF-694277a7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-2bbbc7a9",
+    "bank_code":"070",
+    "amount":"370163.15",
+    "reference_token":"REF-9ffde14e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-feece005",
+    "bank_code":"232",
+    "amount":"310557.55",
+    "reference_token":"REF-a6c16305",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-63b311a1",
+    "bank_code":"003",
+    "amount":"330785.77",
+    "reference_token":"REF-b061dde7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0e2b8b29",
+    "bank_code":"214",
+    "amount":"122458.2",
+    "reference_token":"REF-299746f3",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-083e7b5e",
+    "bank_code":"070",
+    "amount":"291159.76",
+    "reference_token":"REF-deb5b50e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6789899b",
+    "bank_code":null,
+    "amount":"7519.44",
+    "reference_token":"REF-706b5206",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-79843184",
+    "bank_code":"214",
+    "amount":"400260.18",
+    "reference_token":"REF-562784aa",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c2b75371",
+    "bank_code":null,
+    "amount":"192335.88",
+    "reference_token":"REF-594848c4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-2a7e421c",
+    "bank_code":"214",
+    "amount":"174544.89",
+    "reference_token":"REF-763564e6",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c55bc82a",
+    "bank_code":"082",
+    "amount":"212223.26",
+    "reference_token":"REF-d42da8fe",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6d1b2b47",
+    "bank_code":"215",
+    "amount":"338786.88",
+    "reference_token":"REF-639d2688",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-41c5f390",
+    "bank_code":"058",
+    "amount":"438585.65",
+    "reference_token":"REF-7adf54b8",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d20b44f3",
+    "bank_code":null,
+    "amount":"126623.97",
+    "reference_token":"REF-cc82f8ea",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-96edb7f0",
+    "bank_code":"232",
+    "amount":"86554.7",
+    "reference_token":"REF-901a07fd",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-fe307895",
+    "bank_code":"003",
+    "amount":"371106.26",
+    "reference_token":"REF-c74f303e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-37b86b0b",
+    "bank_code":"082",
+    "amount":"306838.04",
+    "reference_token":"REF-31b40ea3",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1b5d8497",
+    "bank_code":"001",
+    "amount":"465638.67",
+    "reference_token":"REF-66341160",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4c2e067a",
+    "bank_code":"002",
+    "amount":"127040.31",
+    "reference_token":"REF-710fe577",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0a6599b1",
+    "bank_code":null,
+    "amount":"59610.69",
+    "reference_token":"REF-6e9e1632",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0d58517f",
+    "bank_code":"215",
+    "amount":"280443.9",
+    "reference_token":"REF-6e109dff",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-238b2b11",
+    "bank_code":"044",
+    "amount":"237357.59",
+    "reference_token":"REF-a61a7cd7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-17f4097b",
+    "bank_code":null,
+    "amount":"319477.03",
+    "reference_token":"REF-75b975cc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-54cba35a",
+    "bank_code":"082",
+    "amount":"408587.21",
+    "reference_token":"REF-e51de587",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b7a9abb2",
+    "bank_code":"003",
+    "amount":"69217.7",
+    "reference_token":"REF-1d8d84d0",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b5b88607",
+    "bank_code":"215",
+    "amount":"293554.88",
+    "reference_token":"REF-56849566",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0152eec2",
+    "bank_code":null,
+    "amount":"460310.68",
+    "reference_token":"REF-42b11821",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7a30ea99",
+    "bank_code":null,
+    "amount":"54644.96",
+    "reference_token":"REF-2419e855",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-829fa50d",
+    "bank_code":null,
+    "amount":"356212.2",
+    "reference_token":"REF-7db47817",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d1f07302",
+    "bank_code":"082",
+    "amount":"362335.27",
+    "reference_token":"REF-e9918b8d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f7f5a755",
+    "bank_code":"214",
+    "amount":"290368.32",
+    "reference_token":"REF-8cae5a1b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d4b52e44",
+    "bank_code":"003",
+    "amount":"431445.82",
+    "reference_token":"REF-5f7a22c4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-578f523a",
+    "bank_code":"003",
+    "amount":"429296.86",
+    "reference_token":"REF-928d7e92",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5d944079",
+    "bank_code":"232",
+    "amount":"410145.19",
+    "reference_token":"REF-c872b30c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7a9d5911",
+    "bank_code":"082",
+    "amount":"85701.22",
+    "reference_token":"REF-e5c1b79a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5025ac9a",
+    "bank_code":"002",
+    "amount":"308002.95",
+    "reference_token":"REF-9345e3e7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-99f74e3b",
+    "bank_code":"082",
+    "amount":"330842.07",
+    "reference_token":"REF-29e444ed",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d64de9c9",
+    "bank_code":"232",
+    "amount":"305108.85",
+    "reference_token":"REF-551581d9",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1e426379",
+    "bank_code":"003",
+    "amount":"107160.41",
+    "reference_token":"REF-2fdb9871",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5f6d7098",
+    "bank_code":"215",
+    "amount":"297054.48",
+    "reference_token":"REF-5f7a22c4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e1c0075d",
+    "bank_code":"058",
+    "amount":"104652.03",
+    "reference_token":"REF-34f2f372",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1ffe4d5a",
+    "bank_code":null,
+    "amount":"329329.6",
+    "reference_token":"REF-5d39396e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-82c71e23",
+    "bank_code":"232",
+    "amount":"64453.15",
+    "reference_token":"REF-88a78a39",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3c73941a",
+    "bank_code":"214",
+    "amount":"97776.58",
+    "reference_token":"REF-ff5e66e9",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6bdb0219",
+    "bank_code":"232",
+    "amount":"110771.91",
+    "reference_token":"REF-38247191",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ed21c2e3",
+    "bank_code":"214",
+    "amount":"153511.77",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-fdd9515a",
+    "bank_code":"070",
+    "amount":"384067.34",
+    "reference_token":"REF-dec234dc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-872c904c",
+    "bank_code":"058",
+    "amount":"434084.46",
+    "reference_token":"REF-04632f0a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-2d5bf57d",
+    "bank_code":null,
+    "amount":"96843.49",
+    "reference_token":"REF-e94e5186",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-de27a440",
+    "bank_code":"003",
+    "amount":"180699.09",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4bb59815",
+    "bank_code":"215",
+    "amount":"203162.32",
+    "reference_token":"REF-86e76b0c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8ca53792",
+    "bank_code":"003",
+    "amount":"411526.25",
+    "reference_token":"REF-75b01847",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ae322acb",
+    "bank_code":"044",
+    "amount":"15176.74",
+    "reference_token":"REF-9fb7b108",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-42616c23",
+    "bank_code":null,
+    "amount":"449170.3",
+    "reference_token":"REF-5f9e09f4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e4558fb1",
+    "bank_code":"214",
+    "amount":"122829.0",
+    "reference_token":"REF-e102153e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-16bd9c1d",
+    "bank_code":"215",
+    "amount":"80465.61",
+    "reference_token":"REF-695d8800",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5ef92812",
+    "bank_code":"232",
+    "amount":"49213.1",
+    "reference_token":"REF-be206cf6",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c1e8b530",
+    "bank_code":"232",
+    "amount":"365360.18",
+    "reference_token":"REF-7a653dbe",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6deb4099",
+    "bank_code":"044",
+    "amount":"422153.3",
+    "reference_token":"REF-33b38da6",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-272a678e",
+    "bank_code":"232",
+    "amount":"107563.71",
+    "reference_token":"REF-5c1bf9de",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-42011fad",
+    "bank_code":"002",
+    "amount":"6850.38",
+    "reference_token":"REF-562784aa",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c1cbf766",
+    "bank_code":"082",
+    "amount":"336815.15",
+    "reference_token":"REF-16144aa2",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-2762e132",
+    "bank_code":"044",
+    "amount":"315235.03",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c5975baa",
+    "bank_code":"070",
+    "amount":"485035.51",
+    "reference_token":"REF-107ce440",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e4727e06",
+    "bank_code":"003",
+    "amount":"235270.52",
+    "reference_token":"REF-db33c7b4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-2ba801e1",
+    "bank_code":null,
+    "amount":"41639.92",
+    "reference_token":"REF-7096c645",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3c82a2e8",
+    "bank_code":"232",
+    "amount":"225850.57",
+    "reference_token":"REF-de4da612",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3cd9f0d3",
+    "bank_code":"001",
+    "amount":"331950.04",
+    "reference_token":"REF-1e45184f",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-32fd8854",
+    "bank_code":"082",
+    "amount":"288280.2",
+    "reference_token":"REF-7acbf261",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-792fbc1b",
+    "bank_code":"082",
+    "amount":"126430.94",
+    "reference_token":"REF-7211a772",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-00f57af0",
+    "bank_code":"003",
+    "amount":"296746.16",
+    "reference_token":"REF-5ce02ff9",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9122f9c0",
+    "bank_code":null,
+    "amount":"113306.76",
+    "reference_token":"REF-0c4fe8c7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d0f08cac",
+    "bank_code":"058",
+    "amount":"171926.81",
+    "reference_token":"REF-ce17093b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4118edb7",
+    "bank_code":"215",
+    "amount":"119533.77",
+    "reference_token":"REF-1071b4bc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-a9643dbe",
+    "bank_code":"232",
+    "amount":"300181.96",
+    "reference_token":"REF-d458ffa7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-11e91ec1",
+    "bank_code":"002",
+    "amount":"66366.95",
+    "reference_token":"REF-b5c3458b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f44055d7",
+    "bank_code":"070",
+    "amount":"289634.81",
+    "reference_token":"REF-d132c5a6",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f13eb7a9",
+    "bank_code":"232",
+    "amount":"255074.61",
+    "reference_token":"REF-cd8a2908",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3d55d8f6",
+    "bank_code":"215",
+    "amount":"60181.97",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9889d7ef",
+    "bank_code":null,
+    "amount":"194771.81",
+    "reference_token":"REF-b1875e3c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1d3832fa",
+    "bank_code":null,
+    "amount":"406236.97",
+    "reference_token":"REF-562784aa",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1cd3f0f5",
+    "bank_code":"044",
+    "amount":"369332.82",
+    "reference_token":"REF-3c20e9da",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-72fc028a",
+    "bank_code":"215",
+    "amount":"8431.13",
+    "reference_token":"REF-dc8a4cb5",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-272e14c6",
+    "bank_code":"058",
+    "amount":"154629.15",
+    "reference_token":"REF-ce5a1132",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8cd1534a",
+    "bank_code":"044",
+    "amount":"372778.71",
+    "reference_token":"REF-d3ce61df",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-855fed0d",
+    "bank_code":"058",
+    "amount":"483841.0",
+    "reference_token":"REF-00396283",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-a74f0c75",
+    "bank_code":"214",
+    "amount":"12546.61",
+    "reference_token":"REF-776ecade",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-761c4ff5",
+    "bank_code":"070",
+    "amount":"86729.43",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bf633b87",
+    "bank_code":null,
+    "amount":"186686.01",
+    "reference_token":"REF-b8b0daf0",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0a97cdef",
+    "bank_code":"214",
+    "amount":"394816.84",
+    "reference_token":"REF-af44cd0d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-fe54eca1",
+    "bank_code":"044",
+    "amount":"27703.49",
+    "reference_token":"REF-9d9ef498",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-acd1238e",
+    "bank_code":"214",
+    "amount":"343130.74",
+    "reference_token":"REF-5b35e899",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-16eac6ab",
+    "bank_code":"003",
+    "amount":"94089.97",
+    "reference_token":"REF-90aad14d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-531d4e8b",
+    "bank_code":"044",
+    "amount":"110835.25",
+    "reference_token":"REF-9bffb8dc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-39192523",
+    "bank_code":"214",
+    "amount":"252484.14",
+    "reference_token":"REF-bd360067",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-a2ee7920",
+    "bank_code":"214",
+    "amount":"379148.14",
+    "reference_token":"REF-cf9cc339",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-18f7d2c7",
+    "bank_code":null,
+    "amount":"33529.45",
+    "reference_token":"REF-3df89326",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7c078e86",
+    "bank_code":"082",
+    "amount":"332048.47",
+    "reference_token":"REF-de7ec970",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d301c368",
+    "bank_code":"058",
+    "amount":"143874.49",
+    "reference_token":"REF-63ae481b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1c71c3c7",
+    "bank_code":"215",
+    "amount":"271942.72",
+    "reference_token":"REF-0244360b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f701357f",
+    "bank_code":null,
+    "amount":"216862.71",
+    "reference_token":"REF-4191a979",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4e5e1f8e",
+    "bank_code":"070",
+    "amount":"8873.89",
+    "reference_token":"REF-3f9a0c03",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-cbe02cbc",
+    "bank_code":"214",
+    "amount":"422738.83",
+    "reference_token":"REF-69774e40",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-74da5fb8",
+    "bank_code":"002",
+    "amount":"369611.05",
+    "reference_token":"REF-fdc1f06d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-a6e366f9",
+    "bank_code":"070",
+    "amount":"1782.07",
+    "reference_token":"REF-806e8ef9",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-917434ea",
+    "bank_code":"003",
+    "amount":"41206.26",
+    "reference_token":"REF-497aa138",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e21d9c27",
+    "bank_code":"044",
+    "amount":"48069.85",
+    "reference_token":"REF-fa53f785",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-80cf459a",
+    "bank_code":"044",
+    "amount":"110946.7",
+    "reference_token":"REF-d8a47055",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d1e45165",
+    "bank_code":"070",
+    "amount":"230170.89",
+    "reference_token":"REF-d777dbd4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f36d31b2",
+    "bank_code":"002",
+    "amount":"256747.07",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9a80ed40",
+    "bank_code":"082",
+    "amount":"342040.35",
+    "reference_token":"REF-8db087a8",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-89126eea",
+    "bank_code":"002",
+    "amount":"10734.96",
+    "reference_token":"REF-63ae481b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1b6bd6ac",
+    "bank_code":"044",
+    "amount":"488358.77",
+    "reference_token":"REF-902f768a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-11fe0901",
+    "bank_code":"082",
+    "amount":"348691.44",
+    "reference_token":"REF-765f5ba7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1031de37",
+    "bank_code":null,
+    "amount":"459395.83",
+    "reference_token":"REF-b7615b16",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9991d1cc",
+    "bank_code":"070",
+    "amount":"79686.39",
+    "reference_token":"REF-1481ec38",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8b2772cf",
+    "bank_code":"215",
+    "amount":"453095.69",
+    "reference_token":"REF-52d65f48",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1486e1c7",
+    "bank_code":"082",
+    "amount":"197851.57",
+    "reference_token":"REF-bf4395cb",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-69e74180",
+    "bank_code":null,
+    "amount":"89818.94",
+    "reference_token":"REF-22f1ebdb",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7c8473be",
+    "bank_code":"070",
+    "amount":"459368.46",
+    "reference_token":"REF-3ff43907",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-70a8b90f",
+    "bank_code":"003",
+    "amount":"476808.15",
+    "reference_token":"REF-ffb0f135",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e2001715",
+    "bank_code":"044",
+    "amount":"157090.34",
+    "reference_token":"REF-27f403b0",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-27b69b58",
+    "bank_code":"215",
+    "amount":"38118.02",
+    "reference_token":"REF-57f2e99b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0f3078ad",
+    "bank_code":"215",
+    "amount":"250332.0",
+    "reference_token":"REF-cf01a124",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-92955463",
+    "bank_code":"044",
+    "amount":"201185.19",
+    "reference_token":"REF-0604a997",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f8c9d63c",
+    "bank_code":null,
+    "amount":"31813.63",
+    "reference_token":"REF-d538677f",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-051ae2f7",
+    "bank_code":"232",
+    "amount":"19102.1",
+    "reference_token":"REF-987eb90a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6bde1b42",
+    "bank_code":"215",
+    "amount":"84081.3",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-91a7aa32",
+    "bank_code":"070",
+    "amount":"165030.22",
+    "reference_token":"REF-329a5333",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8cbb1074",
+    "bank_code":"003",
+    "amount":"497707.55",
+    "reference_token":"REF-9fd7dea4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f65bc353",
+    "bank_code":"082",
+    "amount":"326304.23",
+    "reference_token":"REF-9fd7dea4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e139629f",
+    "bank_code":"002",
+    "amount":"115622.75",
+    "reference_token":"REF-9a3deada",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-051d9500",
+    "bank_code":"002",
+    "amount":"72490.34",
+    "reference_token":"REF-672289cb",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4d51bdab",
+    "bank_code":"232",
+    "amount":"21226.72",
+    "reference_token":"REF-c00d48c2",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0b5bc098",
+    "bank_code":"070",
+    "amount":"306653.04",
+    "reference_token":"REF-a5cc6469",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-231d798e",
+    "bank_code":"003",
+    "amount":"60514.23",
+    "reference_token":"REF-1d5af8d7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bf029e20",
+    "bank_code":"058",
+    "amount":"101324.16",
+    "reference_token":"REF-12ab71d3",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5396eb5a",
+    "bank_code":"232",
+    "amount":"47960.8",
+    "reference_token":"REF-4c63b31b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6709babd",
+    "bank_code":"002",
+    "amount":"7094.04",
+    "reference_token":"REF-bc0c930f",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ce06e787",
+    "bank_code":"214",
+    "amount":"142339.17",
+    "reference_token":"REF-892537d1",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-03773ed7",
+    "bank_code":"082",
+    "amount":"32575.79",
+    "reference_token":"REF-35361127",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c0405748",
+    "bank_code":"232",
+    "amount":"93272.75",
+    "reference_token":"REF-2ac7189c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8a9caec8",
+    "bank_code":"215",
+    "amount":"238376.4",
+    "reference_token":"REF-fd753f69",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-25192c8e",
+    "bank_code":null,
+    "amount":"99393.04",
+    "reference_token":"REF-ea93d485",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-09eaf3f9",
+    "bank_code":"215",
+    "amount":"437077.86",
+    "reference_token":"REF-8756a910",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-a0be51a6",
+    "bank_code":"214",
+    "amount":"478996.93",
+    "reference_token":"REF-75c7b714",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c1c84d55",
+    "bank_code":"070",
+    "amount":"271806.02",
+    "reference_token":"REF-257d6e6a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f2894171",
+    "bank_code":"232",
+    "amount":"129605.72",
+    "reference_token":"REF-140b9f90",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-cf944496",
+    "bank_code":"070",
+    "amount":"104641.85",
+    "reference_token":"REF-51423e62",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-fd423e1e",
+    "bank_code":"214",
+    "amount":"425926.12",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-35c939e7",
+    "bank_code":"002",
+    "amount":"258595.11",
+    "reference_token":"REF-1356a382",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-46d9ae27",
+    "bank_code":"058",
+    "amount":"82768.88",
+    "reference_token":"REF-54ae42e8",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ffd73b91",
+    "bank_code":"082",
+    "amount":"163135.09",
+    "reference_token":"REF-8742e1dd",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3395d69a",
+    "bank_code":"082",
+    "amount":"232262.76",
+    "reference_token":"REF-61f657a0",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-dace7823",
+    "bank_code":"070",
+    "amount":"84272.34",
+    "reference_token":"REF-3cc4329c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-70c2af99",
+    "bank_code":null,
+    "amount":"27289.67",
+    "reference_token":"REF-9dba9f41",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3888d951",
+    "bank_code":null,
+    "amount":"291574.54",
+    "reference_token":"REF-e5d8e7dd",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-92dd7277",
+    "bank_code":"214",
+    "amount":"156571.53",
+    "reference_token":"REF-f4946e50",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8a4f029f",
+    "bank_code":"214",
+    "amount":"210088.08",
+    "reference_token":"REF-44873127",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0d09742a",
+    "bank_code":"058",
+    "amount":"319540.16",
+    "reference_token":"REF-dec234dc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c335f32a",
+    "bank_code":null,
+    "amount":"20668.17",
+    "reference_token":"REF-16977e61",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0699e766",
+    "bank_code":"232",
+    "amount":"273501.19",
+    "reference_token":"REF-fcfe2a0d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-04880182",
+    "bank_code":"070",
+    "amount":"338156.18",
+    "reference_token":"REF-5f7a22c4",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-b1c0f373",
+    "bank_code":"082",
+    "amount":"280.63",
+    "reference_token":"REF-3385a43b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-08df473c",
+    "bank_code":null,
+    "amount":"351992.28",
+    "reference_token":"REF-278914bc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-c5d55aed",
+    "bank_code":"003",
+    "amount":"208313.22",
+    "reference_token":"REF-74521981",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0e3c8001",
+    "bank_code":"232",
+    "amount":"148791.25",
+    "reference_token":"REF-295af693",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-2217bcbb",
+    "bank_code":null,
+    "amount":"263777.46",
+    "reference_token":"REF-e5ff7342",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-cb7bc14e",
+    "bank_code":null,
+    "amount":"412672.43",
+    "reference_token":"REF-7d88ff7e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8f0e3963",
+    "bank_code":"232",
+    "amount":"66894.35",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3336d618",
+    "bank_code":"044",
+    "amount":"429935.68",
+    "reference_token":"REF-710fe577",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5c93d16b",
+    "bank_code":"082",
+    "amount":"129074.94",
+    "reference_token":"REF-8a321441",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-935bbe03",
+    "bank_code":"002",
+    "amount":"328459.99",
+    "reference_token":"REF-b4f9c411",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9b93a948",
+    "bank_code":"215",
+    "amount":"496326.56",
+    "reference_token":"REF-af8b2e2b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-57473c2c",
+    "bank_code":"044",
+    "amount":"436122.57",
+    "reference_token":"REF-3bdb815c",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-e11ef1a9",
+    "bank_code":"215",
+    "amount":"78525.57",
+    "reference_token":"REF-41bebf5b",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-534a73da",
+    "bank_code":"215",
+    "amount":"480648.5",
+    "reference_token":"REF-b58ec0cc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9fbaa2bb",
+    "bank_code":"044",
+    "amount":"84231.62",
+    "reference_token":"REF-f7b73112",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-80ab80de",
+    "bank_code":null,
+    "amount":"433549.88",
+    "reference_token":"REF-736cabcc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bdcab87b",
+    "bank_code":"058",
+    "amount":"134209.19",
+    "reference_token":"REF-2e2dcd5e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4dd13861",
+    "bank_code":"214",
+    "amount":"322803.31",
+    "reference_token":"REF-88e69361",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-77050112",
+    "bank_code":"214",
+    "amount":"126831.44",
+    "reference_token":"REF-a428912e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4c822ee2",
+    "bank_code":"044",
+    "amount":"487457.43",
+    "reference_token":"REF-6afe6e9d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-66e7c28e",
+    "bank_code":null,
+    "amount":"400543.15",
+    "reference_token":"REF-eb5c9f95",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-20b5c97e",
+    "bank_code":"214",
+    "amount":"471363.96",
+    "reference_token":"REF-3c984c71",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7d196ea9",
+    "bank_code":null,
+    "amount":"209676.38",
+    "reference_token":"REF-099ac916",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9417234a",
+    "bank_code":"214",
+    "amount":"145983.22",
+    "reference_token":"REF-765f5ba7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-256c9534",
+    "bank_code":"003",
+    "amount":"55380.41",
+    "reference_token":"REF-42a29976",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5a415bec",
+    "bank_code":"058",
+    "amount":"250452.86",
+    "reference_token":"REF-8147d6bb",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-0857f52a",
+    "bank_code":"070",
+    "amount":"28291.58",
+    "reference_token":"REF-fe0cf0a3",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7f9811ab",
+    "bank_code":"058",
+    "amount":"315306.64",
+    "reference_token":"REF-ef70a854",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9fa7c98c",
+    "bank_code":null,
+    "amount":"220301.44",
+    "reference_token":"REF-e6929245",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-049faab4",
+    "bank_code":"215",
+    "amount":"155663.04",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-204a1cfe",
+    "bank_code":"082",
+    "amount":"159038.7",
+    "reference_token":"REF-e9160eca",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-310c6b1a",
+    "bank_code":"232",
+    "amount":"357251.08",
+    "reference_token":"REF-f5801259",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-8eb38f5e",
+    "bank_code":"003",
+    "amount":"469354.01",
+    "reference_token":"REF-20ad8b2a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-24a338d1",
+    "bank_code":"003",
+    "amount":"252573.79",
+    "reference_token":"REF-75b01847",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-528a0a06",
+    "bank_code":"214",
+    "amount":"313913.55",
+    "reference_token":"REF-2627f5f6",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4c990288",
+    "bank_code":"215",
+    "amount":"131128.96",
+    "reference_token":"REF-cf2b1e80",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-17f644e8",
+    "bank_code":null,
+    "amount":"424076.8",
+    "reference_token":"REF-e027105d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-80c6d8e9",
+    "bank_code":null,
+    "amount":"361888.44",
+    "reference_token":"REF-532be917",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-1316c923",
+    "bank_code":null,
+    "amount":"428791.85",
+    "reference_token":"REF-f1d25d08",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-122d1b9d",
+    "bank_code":"232",
+    "amount":"45771.77",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-5a04e7dc",
+    "bank_code":"002",
+    "amount":"105922.22",
+    "reference_token":"REF-3e00aaca",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-900b958d",
+    "bank_code":"058",
+    "amount":"46602.59",
+    "reference_token":"REF-2bc54fc6",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-2afc58b8",
+    "bank_code":"003",
+    "amount":"486333.83",
+    "reference_token":"REF-8c8821ba",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-6e5de2b0",
+    "bank_code":null,
+    "amount":"218140.91",
+    "reference_token":"REF-edf8ba7e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-f2c4bd6f",
+    "bank_code":"070",
+    "amount":"203144.68",
+    "reference_token":"REF-e07aa5b3",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4f87f70d",
+    "bank_code":null,
+    "amount":"84679.49",
+    "reference_token":"REF-d7f9af90",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-07fddd67",
+    "bank_code":null,
+    "amount":"301841.92",
+    "reference_token":"REF-2f941ac3",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-dda8fd97",
+    "bank_code":"215",
+    "amount":"293362.67",
+    "reference_token":"REF-d291efca",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d3adac87",
+    "bank_code":"215",
+    "amount":"39042.74",
+    "reference_token":"REF-c506e897",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3f3bd0b4",
+    "bank_code":"214",
+    "amount":"394512.62",
+    "reference_token":"REF-672289cb",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-32a8ac71",
+    "bank_code":"003",
+    "amount":"49219.33",
+    "reference_token":"REF-b32189bc",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-afbc4ff2",
+    "bank_code":"044",
+    "amount":"429813.51",
+    "reference_token":"REF-8266261a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-91922fc7",
+    "bank_code":"232",
+    "amount":"69438.17",
+    "reference_token":"REF-35d0de6e",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-7f6d9ba4",
+    "bank_code":null,
+    "amount":"162781.35",
+    "reference_token":"REF-898715d7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-de34c052",
+    "bank_code":"232",
+    "amount":"340690.47",
+    "reference_token":"REF-5bd86162",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-3c976586",
+    "bank_code":"003",
+    "amount":"243910.13",
+    "reference_token":"REF-9cfca55a",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-bb6b925e",
+    "bank_code":"002",
+    "amount":"37185.02",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-4d242638",
+    "bank_code":"001",
+    "amount":"320892.36",
+    "reference_token":"REF-9b2d5b46",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-9cdbeaa0",
+    "bank_code":null,
+    "amount":"59747.31",
+    "reference_token":"REF-4a3505f7",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-ca006510",
+    "bank_code":"232",
+    "amount":"481639.53",
+    "reference_token":"REF-f616526d",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d8e1dd9d",
+    "bank_code":"214",
+    "amount":"498276.27",
+    "reference_token":"REF-ef6fb4e5",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  },
+  {
+    "account_token":"ACC-d3fef9bb",
+    "bank_code":"214",
+    "amount":"141493.64",
+    "reference_token":"REF-b57e1a6f",
+    "status":"Valid",
+    "errors":[
+
+    ]
+  }
+]

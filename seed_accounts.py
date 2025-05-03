@@ -2,6 +2,9 @@ import csv
 import random
 import string
 
+from app.bank_strategies import BANK_GENERATORS
+BANK_CODES = list(BANK_GENERATORS.keys()) + ["044", "058", "070", "232", "082", "214", "215"]
+
 # Configuration
 total_records = 500
 valid_ratio = 0.6  # 60% valid, 40% invalid
@@ -100,8 +103,11 @@ def make_valid_account(idx, used_refs):
         acct = generate_valid_iban()
         bank = ""  # IBANs may not use local bank_code
     else:
-        acct = generate_account_number()
-        bank = random.choice(["001", "002", "003", "044", "058", "070", "232"])
+        bank = random.choice(BANK_CODES)
+        if bank in BANK_GENERATORS:
+            acct = BANK_GENERATORS[bank]()
+        else:
+            acct = generate_account_number()
     amt = round(random.uniform(50, 500000), 2)
     ref = f"TX{random.randint(100000,999999)}"
     # Ensure unique reference_id
@@ -123,17 +129,26 @@ def make_invalid_account(idx, used_refs):
         acct = generate_invalid_iban()
         bank = ""
     elif error_type == "short_account":
-        acct = random_alphanum_strict(random.randint(5, 7))
-        bank = random.choice(["001", "002", "003", "044", "058", "070", "232"])
+        bank = random.choice(BANK_CODES)
+        if bank in BANK_GENERATORS:
+            acct = BANK_GENERATORS[bank]()[:random.randint(5, 7)]
+        else:
+            acct = generate_account_number()[:random.randint(5, 7)]
     elif error_type == "long_account":
-        acct = random_alphanum_strict(random.randint(13, 16))
-        bank = random.choice(["001", "002", "003", "044", "058", "070", "232"])
+        bank = random.choice(BANK_CODES)
+        if bank in BANK_GENERATORS:
+            acct = BANK_GENERATORS[bank]() + random_alphanum_strict(random.randint(1, 4))
+        else:
+            acct = generate_account_number() + random_alphanum_strict(random.randint(1, 4))
     elif error_type == "symbols":
+        bank = random.choice(BANK_CODES)
         acct = ''.join(random.choices(string.ascii_uppercase + string.digits + "@#$", k=random.randint(8, 12)))
-        bank = random.choice(["001", "002", "003", "044", "058", "070", "232"])
     else:
-        acct = generate_account_number()
-        bank = random.choice(["999", "ABC", "00", "004"]) if error_type == "bad_bank" else random.choice(["001", "002", "003", "044", "058", "070", "232"])
+        bank = random.choice(BANK_CODES)
+        if bank in BANK_GENERATORS:
+            acct = BANK_GENERATORS[bank]()
+        else:
+            acct = generate_account_number()
     # Amount
     if error_type == "bad_amount":
         amt = random.choice([-100, 0, 1e8])
@@ -164,11 +179,32 @@ def main():
     for i in range(num_invalid):
         records.append(make_invalid_account(i, used_refs))
     random.shuffle(records)
+    # Write CSV
     with open(output_csv, "w", newline="") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=["account_number", "bank_code", "amount", "reference_id"])
         writer.writeheader()
         writer.writerows(records)
     print(f"Seed file generated: {output_csv} ({len(records)} records)")
+
+    # Write JSON
+    import json
+    output_json = "seed_accounts.json"
+    with open(output_json, "w") as jsonfile:
+        json.dump(records, jsonfile, indent=2)
+    print(f"Seed file generated: {output_json} ({len(records)} records)")
+
+    # Write XML
+    import xml.etree.ElementTree as ET
+    output_xml = "seed_accounts.xml"
+    root = ET.Element("accounts")
+    for rec in records:
+        rec_elem = ET.SubElement(root, "record")
+        for k, v in rec.items():
+            child = ET.SubElement(rec_elem, k)
+            child.text = str(v)
+    tree = ET.ElementTree(root)
+    tree.write(output_xml, encoding="utf-8", xml_declaration=True)
+    print(f"Seed file generated: {output_xml} ({len(records)} records)")
 
 if __name__ == "__main__":
     main()

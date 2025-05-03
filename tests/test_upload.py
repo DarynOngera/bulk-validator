@@ -10,15 +10,19 @@ from app.main import app
 client = TestClient(app)
 fake = Faker()
 
-def create_dummy_csv(filename="test_accounts.csv", rows=5):
+from app.bank_strategies import BANK_GENERATORS
+
+def create_dummy_csv(filename="test_accounts.csv", rows=None):
     data = []
-    for _ in range(rows):
+    valid_bank_codes = list(BANK_GENERATORS.keys())
+    # Guarantee at least one valid account per bank
+    for bank_code in valid_bank_codes:
+        account_number = BANK_GENERATORS[bank_code]()
         data.append({
-            "account": fake.random_number(digits=4),
-            "name": fake.name(),
-            "email": fake.email(),
-            "account_number": fake.random_number(digits=10),
-            "bank_code": fake.random_number(digits=3)
+            "account_number": account_number,
+            "bank_code": bank_code,
+            "amount": round(fake.pyfloat(left_digits=4, right_digits=2, positive=True, min_value=10, max_value=10000), 2),
+            "reference_id": f"TX{fake.random_number(digits=6)}"
         })
     df = pd.DataFrame(data)
     df.to_csv(filename, index=False)
@@ -31,9 +35,14 @@ def test_upload_csv():
 
     assert response.status_code == 200
     data = response.json()
-    assert "summary" in data
-    assert "valid_accounts" in data
-    assert "invalid_accounts" in data
+    assert "files" in data
+    from app.bank_strategies import BANK_GENERATORS
+    found_valid = False
+    for code in BANK_GENERATORS:
+        if code in data and "valid" in data[code] and data[code]["valid"] > 0:
+            found_valid = True
+            break
+    assert found_valid, "No valid accounts found in any bank code stats in response"
     os.remove(file_path)
 
 def test_download_report():

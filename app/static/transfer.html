@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulate Bank Transfer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { background: #f8fafc; }
+        .container { max-width: 500px; margin-top: 50px; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 30px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2 class="mb-4">Simulate Bank Transfer</h2>
+    <form id="transferForm">
+        <div class="mb-3">
+            <label for="recipient_name" class="form-label">Recipient Name</label>
+            <input type="text" class="form-control" id="recipient_name" required>
+        </div>
+        <div class="mb-3">
+            <label for="account_number" class="form-label">Account Number</label>
+            <input type="text" class="form-control" id="account_number" required>
+        </div>
+        <div class="mb-3">
+            <label for="bank_code" class="form-label">Bank Code (BIC)</label>
+            <input type="text" class="form-control" id="bank_code" required>
+        </div>
+        <div class="mb-3">
+            <label for="amount" class="form-label">Amount</label>
+            <input type="number" class="form-control" id="amount" required min="0.01" step="0.01">
+        </div>
+        <div class="mb-3">
+            <label for="reference_id" class="form-label">Reference ID</label>
+            <input type="text" class="form-control" id="reference_id" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Simulate Transfer</button>
+    </form>
+    <div id="result" class="mt-4"></div>
+</div>
+<script>
+    document.getElementById('transferForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const data = {
+            recipient_name: document.getElementById('recipient_name').value,
+            account_number: document.getElementById('account_number').value,
+            bank_code: document.getElementById('bank_code').value,
+            amount: parseFloat(document.getElementById('amount').value),
+            reference_id: document.getElementById('reference_id').value
+        };
+        document.getElementById('result').innerHTML = '<div class="alert alert-info">Processing...</div>';
+        try {
+            const resp = await fetch('/transfer', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            const result = await resp.json();
+            if(result.status === 'success') {
+                document.getElementById('result').innerHTML = `<div class="alert alert-success">${result.message}</div>`;
+            } else {
+                let errors = result.errors ? result.errors.map(e => `<li>${e.message}</li>`).join('') : '';
+                document.getElementById('result').innerHTML = `<div class="alert alert-danger">Validation failed:<ul>${errors}</ul></div>`;
+            }
+        } catch (err) {
+            document.getElementById('result').innerHTML = `<div class="alert alert-danger">Error: ${err}</div>`;
+        }
+    });
+</script>
+</body>
+</html>

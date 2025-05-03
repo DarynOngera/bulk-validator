@@ -1,6 +1,4 @@
-name,email,account_number
-Jessica Martinez,samueldavis@example.net,5322635800
-Lance Ramirez,jasonprince@example.org,5112365627
-Denise Lewis,lisa03@example.com,9423762107
-Brian Williams,chenjames@example.org,8007810642
-Clifford Murphy,melissa71@example.org,6747839360
+account_number,bank_code,amount,reference_id
+6390475844,001,9646.78,TX527199
+MF389117,002,1197.79,TX788943
+776380762025,003,9139.44,TX553107

@@ -1,0 +1,166 @@
+{
+  "total_accounts": 500,
+  "valid_accounts": 383,
+  "invalid_accounts": 117,
+  "invalid_error_types": {
+    "bank_001_account_validation": {
+      "count": 37,
+      "examples": [
+        "Account number failed validation for bank 001",
+        "Account number failed validation for bank 001",
+        "Account number failed validation for bank 001"
+      ]
+    },
+    "amount_validation": {
+      "count": 26,
+      "examples": [
+        "Invalid amount",
+        "Invalid amount",
+        "Invalid amount"
+      ]
+    },
+    "bank_003_account_validation": {
+      "count": 9,
+      "examples": [
+        "Account number failed validation for bank 003",
+        "Account number failed validation for bank 003",
+        "Account number failed validation for bank 003"
+      ]
+    },
+    "bank_002_account_validation": {
+      "count": 9,
+      "examples": [
+        "Account number failed validation for bank 002",
+        "Account number failed validation for bank 002",
+        "Account number failed validation for bank 002"
+      ]
+    },
+    "alphanumeric_format": {
+      "count": 7,
+      "examples": [
+        "Account number must be alphanumeric (unless IBAN)",
+        "Account number must be alphanumeric (unless IBAN)",
+        "Account number must be alphanumeric (unless IBAN)"
+      ]
+    },
+    "length_error": {
+      "count": 25,
+      "examples": [
+        "Account number must be 8-12 characters (unless IBAN)",
+        "Account number must be 8-12 characters (unless IBAN)",
+        "Account number must be 8-12 characters (unless IBAN)"
+      ]
+    },
+    "iban_format_or_checksum": {
+      "count": 4,
+      "examples": [
+        "Invalid IBAN format or checksum",
+        "Invalid IBAN format or checksum",
+        "Invalid IBAN format or checksum"
+      ]
+    },
+    "bank_code_validation": {
+      "count": 1,
+      "examples": [
+        "Invalid bank code"
+      ]
+    }
+  },
+  "per_bank_stats": {
+    "001": {
+      "total": 41,
+      "valid": 3,
+      "invalid": 38,
+      "error_types": {
+        "bank_001_account_validation": 37,
+        "amount_validation": 1
+      }
+    },
+    "002": {
+      "total": 35,
+      "valid": 23,
+      "invalid": 12,
+      "error_types": {
+        "bank_002_account_validation": 9,
+        "amount_validation": 3
+      }
+    },
+    "003": {
+      "total": 53,
+      "valid": 41,
+      "invalid": 12,
+      "error_types": {
+        "bank_003_account_validation": 9,
+        "amount_validation": 3
+      }
+    },
+    "044": {
+      "total": 45,
+      "valid": 32,
+      "invalid": 13,
+      "error_types": {
+        "amount_validation": 7,
+        "alphanumeric_format": 2,
+        "length_error": 4
+      }
+    },
+    "058": {
+      "total": 36,
+      "valid": 30,
+      "invalid": 6,
+      "error_types": {
+        "amount_validation": 2,
+        "alphanumeric_format": 1,
+        "length_error": 3
+      }
+    },
+    "070": {
+      "total": 46,
+      "valid": 39,
+      "invalid": 7,
+      "error_types": {
+        "amount_validation": 4,
+        "alphanumeric_format": 1,
+        "length_error": 2
+      }
+    },
+    "082": {
+      "total": 38,
+      "valid": 31,
+      "invalid": 7,
+      "error_types": {
+        "length_error": 5,
+        "amount_validation": 1,
+        "alphanumeric_format": 1
+      }
+    },
+    "214": {
+      "total": 46,
+      "valid": 41,
+      "invalid": 5,
+      "error_types": {
+        "length_error": 4,
+        "amount_validation": 1
+      }
+    },
+    "215": {
+      "total": 41,
+      "valid": 34,
+      "invalid": 7,
+      "error_types": {
+        "alphanumeric_format": 2,
+        "length_error": 3,
+        "amount_validation": 2
+      }
+    },
+    "232": {
+      "total": 43,
+      "valid": 38,
+      "invalid": 5,
+      "error_types": {
+        "amount_validation": 2,
+        "length_error": 3
+      }
+    }
+  }
+}
