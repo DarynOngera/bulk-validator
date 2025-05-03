@@ -1,4 +1,6 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 import argparse
 import pandas as pd
 import ijson
@@ -73,13 +75,17 @@ def main():
         # Use last result for summary and files
         summary = all_results[-1]['validation_summary']
         files = all_results[-1]['files']
-        summary_txt = json.dumps(summary, indent=2)
         attachments = list(files.values())
         print(f"Sending notification to {notify_to} ...")
         send_validation_report_email(
             recipient=notify_to,
             subject="Bulk Validation Complete",
-            body=f"Bulk validation has completed.\n\nSummary:\n{summary_txt}",
+            body=(
+                "Dear User,\n\n"
+                "Your batch validation request has been completed successfully. "
+                "Please find the results attached to this email.\n\n"
+                "Best regards,\nBulk Validator System"
+            ),
             attachments=attachments
         )
         print("Notification sent.")
