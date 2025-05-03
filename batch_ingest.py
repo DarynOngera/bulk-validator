@@ -6,6 +6,36 @@ import xml.etree.ElementTree as ET
 from app.main import validate_and_output, REQUIRED_COLUMNS
 import asyncio
 import json
+import logging
+import time
+
+# Ensure the output directory exists
+os.makedirs('output', exist_ok=True)
+
+# Configure logging
+log_file_path = os.path.abspath('output/batch_processing.log')
+logger = logging.getLogger()  # Get the root logger
+logger.setLevel(logging.INFO)
+
+# Create a file handler
+file_handler = logging.FileHandler(log_file_path)
+file_handler.setLevel(logging.INFO)
+
+# Create a console handler (optional, for debugging)
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+
+# Define a log format
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+console_handler.setFormatter(formatter)
+
+# Add handlers to the logger
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
+
+# Test logging
+logger.info("Logging initialized successfully.")
 
 CHUNK_SIZE = 1000
 
@@ -41,8 +71,6 @@ def process_xml(path):
         yield batch
 
 def main():
-    import os
-    from app.email_notify import send_validation_report_email
     parser = argparse.ArgumentParser(description='Bulk Validator Batch Ingest')
     parser.add_argument('file', help='Input file path (CSV, JSON, XML)')
     parser.add_argument('--type', choices=['csv', 'json', 'xml'], required=True)
@@ -50,6 +78,10 @@ def main():
     args = parser.parse_args()
     ext = args.type
     path = args.file
+
+    # Start timer
+    start_time = time.time()
+
     if ext == 'csv':
         batcher = process_csv(path)
     elif ext == 'json':
@@ -58,31 +90,51 @@ def main():
         batcher = process_xml(path)
     else:
         raise ValueError('Unsupported file type')
+
     loop = asyncio.get_event_loop()
     chunk_num = 0
+    total_records = 0
+    total_valid = 0
+    total_invalid = 0
     all_results = []
+
     for records in batcher:
-        print(f"Processing chunk {chunk_num+1} ({len(records)} records)...")
+        chunk_num += 1
+        total_records += len(records)
+        print(f"Processing chunk {chunk_num} ({len(records)} records)...")
+        logger.info(f"Processing chunk {chunk_num} ({len(records)} records)...")
         result = loop.run_until_complete(validate_and_output(records, source_type=ext))
         all_results.append(result)
-        chunk_num += 1
+
+        # Debug: Log the result structure
+        logger.info(f"Result structure: {result}")
+
+        # Update valid and invalid counts
+        validation_summary = result.get("validation_summary", {})
+        total_valid += validation_summary.get("valid_accounts", 0)
+        total_invalid += validation_summary.get("invalid_accounts", 0)
+
+    # Example: Writing a report to output/report.csv
+    report_path = "output/report.csv"
+    df = pd.DataFrame(all_results)
+    df.to_csv(report_path, index=False)
+
     print("Batch processing complete.")
-    # Email notification
-    notify_to = args.notify or os.getenv('EMAIL_NOTIFY_TO')
-    if notify_to:
-        # Use last result for summary and files
-        summary = all_results[-1]['validation_summary']
-        files = all_results[-1]['files']
-        summary_txt = json.dumps(summary, indent=2)
-        attachments = list(files.values())
-        print(f"Sending notification to {notify_to} ...")
-        send_validation_report_email(
-            recipient=notify_to,
-            subject="Bulk Validation Complete",
-            body=f"Bulk validation has completed.\n\nSummary:\n{summary_txt}",
-            attachments=attachments
-        )
-        print("Notification sent.")
+    logger.info("Batch processing complete.")
+
+    # End timer and log total time
+    end_time = time.time()
+    total_time = end_time - start_time
+    logger.info(f"Total chunks processed: {chunk_num}")
+    logger.info(f"Total records processed: {total_records}")
+    logger.info(f"Total valid records: {total_valid}")
+    logger.info(f"Total invalid records: {total_invalid}")
+    logger.info(f"Total processing time: {total_time:.2f} seconds")
+    print(f"Total chunks processed: {chunk_num}")
+    print(f"Total records processed: {total_records}")
+    print(f"Total valid records: {total_valid}")
+    print(f"Total invalid records: {total_invalid}")
+    print(f"Total processing time: {total_time:.2f} seconds")
 
 if __name__ == '__main__':
     main()
